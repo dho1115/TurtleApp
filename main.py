@@ -13,6 +13,14 @@ if __name__ == "__main__":
 
    square = turtle_design(*[group1 for i in range(3)], group2);
 
-   home()
+   penup()
+   forward(105)
+   pendown();
+
+   turtle_movement_group(dict(forward=35), dict(left=90), dict(forward=80), dict(left=90), dict(forward=35), dict(left=90), dict(forward=80), dict(right=135), dict(forward=50), dict(right=90), dict(forward=40), color="green")
+
+   # turtle_movement_group(dict(forward=31))
+
+   # home()
 
    Screen().exitonclick()

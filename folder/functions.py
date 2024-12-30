@@ -1,4 +1,4 @@
-from turtle import forward, left, right, shape, speed, Screen, color as tcolor, home, width as twidth
+from turtle import forward, left, right, shape, speed, Screen, color as tcolor, home, width as twidth, penup, pendown, goto
 
 from colorama import init;
 from termcolor import colored;
